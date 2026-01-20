@@ -1,8 +1,8 @@
 {
   "$schema": "https://getcomposer.org/schema.json",
-  "name": "mfd/ai-filemetadata",
+  "name": "mohsinqk/ai-filemetadata",
   "type": "typo3-cms-extension",
-  "description": "Automatically generates FAL metadata for files by means of public LLMs",
+  "description": "Automatically generates FAL metadata for files by means of public LLMs (Fork with custom changes)",
   "keywords": [
     "TYPO3 CMS",
     "Extension",
