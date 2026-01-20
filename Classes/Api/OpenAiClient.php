@@ -60,11 +60,15 @@ GPT;
             'model' => $modell,
             'messages' => [
                 [
+                    'role' => 'system',
+                    'content' => $prompt,
+                ],
+                [
                     'role' => 'user',
                     'content' => [
                         [
                             'type' => 'text',
-                            'text' => $prompt,
+                            'text' => 'Generate alt text.',
                         ],
                         [
                             'type' => 'image_url',
